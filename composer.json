@@ -1,0 +1,21 @@
+{
+    "name": "programmende/laravel-categorizable",
+    "description": "Categorizable is a package for Laravel that adds the ability to categorize your models into nested categories.",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Christian Zörkler",
+            "email": "christian.zoerkler@programmende.de"
+        }
+    ],
+    "require": {
+        "Illuminate/Support": "5.3.*",
+        "kalnoy/nestedset": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Programmende\\Categorizable\\": "src/"
+        }
+    },
+}
