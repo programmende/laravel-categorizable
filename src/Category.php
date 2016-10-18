@@ -14,5 +14,5 @@ class Category extends Node
      *
      * @var array
      */
-    protected $fillable = ['name', 'slug'];
+    protected $fillable = ['name', 'slug', '_lft', '_rgt', 'parent_id'];
 }
