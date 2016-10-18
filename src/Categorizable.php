@@ -4,6 +4,7 @@ namespace Programmende\Categorizable;
 
 use Kalnoy\Nestedset\NodeTrait;
 use Programmende\Categorizable\Category;
+use Kalnoy\Nestedset\Collection;
 
 trait Categorizable
 {
